@@ -44,9 +44,9 @@ class ClassMarks {
             new String[assignmentsArray.length + 1][studentArray.length];
 
         // adds names of students to the array
-        for (int nameRowCounter = 0; nameRowCounter
-            < studentArray.length; nameRowCounter++) {
-            marks2D[0][nameRowCounter] = studentArray[nameRowCounter];
+        for (int counterName = 0; counterName
+            < studentArray.length; counterName++) {
+            marks2D[0][counterName] = studentArray[counterName];
         }
 
         // adds marks for each of the students to the assignments
